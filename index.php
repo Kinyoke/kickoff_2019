@@ -1,8 +1,17 @@
 <?php
 
+
+	/*
+	 *@Author: Faisal Burhan
+	 *@Date: Feb 2019
+	 *@Copyright (c) kickoff.co.tz
+	 */
+
 	include('../kickoff/view/layouts/nav.php');
 
 ?>
+
+http://127.0.0.1/kickoff/
 
 <div id="home-body" class="col-lg-12">
 	
