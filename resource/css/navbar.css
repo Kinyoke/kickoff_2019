@@ -1,0 +1,54 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	left: 0;
+	padding: 0;
+
+	font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+/*NOTE:*/
+/*header styling goes below*/
+.header{ width: 100%; height: 80px; transition: 1s; background-color: red;}
+#team-banner{width: 80%; line-height: 70px; display: inline-block; float: right;}
+#team-banner-head{ height: 80px; width: 10%; float: left; text-align: center;}
+#team-banner-ticons{ width: 90%; height: 80px; float: right; float: right; line-height: 100px;}
+#club-icon-pane{ margin: 5px 0px; color: rgb(50,50,50);}
+.clubList li{ list-style-type: none; display: inline; padding: 2px; }
+.clubList li img{ margin-top: 20px; width: 4%; -webkit-transition: width 1s; transition: width 1s; margin: auto; transition: transform .2s; /* Animation */}
+.clubList li img:hover{ transform: scale(1.5); }
+
+
+/*NOTE:*/
+/*navigation menu styling goes below */
+.nav{ width: 100%; background-color: white; z-index: 100; height: 147px; border-bottom: solid 3px rgb(230,230,230); margin-bottom: 0px;}
+#menu-top{ width: 100%; height: 65px; }
+#logo-img img{ width: 8%; margin: 45px 20px; position: absolute; -webkit-transition: width 1s; transition: width 1s;  transition: transform .2s; transition: .5s; clear: both;}
+#back-pane{ width: 90%; height: 65px; background-color: transparent; float: right; }
+#pane-top{ border-bottom: 25px solid green; transition: .5s; border-left: 20px solid transparent; border-right: 50px solid green; height: 0; width: 97%; float: right; }
+#pane-bottom{ border-bottom: 40px solid green; transition: .5s; border-left: 25px solid transparent; border-right: 50px solid green; height: 0; width: 98.1%; float: right; border-top: -2px; }
+.menus{ height: 65px; width: 80%; margin-left: 20%; position: absolute; line-height: 65px; display: inline;}
+.MenuX-top{ height: 65px; width: 80%; float: left; margin-top: 80px;}
+.MenuX-top li{ list-style-type: none; display: inline; }
+.MenuX-top li a{ text-decoration: none;  color: white; font-size: 14px; padding: 24px 15px;  font-family: 'Ubuntu', sans-serif; transition: .2s;}
+#extra-nav{ background-color: rgb(40,150,40); padding: 22px 25px; margin-left: 100px; }
+.MenuX-top-right{ height: 65px; width: 20%; float: right; margin-top: 80px;}
+#menu-top-right li{ list-style-type: none; display: inline; }
+i.fa-search{ padding: 20px 40px; border-right: solid .5px white; transition: .5s;}
+i.fa-search:hover{ border-bottom: solid 4px white; }
+#menu-top-right li a{ text-decoration: none;  color: white; margin-top: font-size: 14px; padding: 22px 25px;  font-family: 'Ubuntu', sans-serif; transition: .2s;}
+#menu-top-right a:hover{ border-bottom: solid 4px white; }
+#menu-bottom{ height: 65px; width: 80%; margin-left: 20%; display: inline; line-height: 65px; }
+.subMenuX-bottom-left{ float: left; }
+.subMenuX-bottom-left li{ list-style-type: none; display: inline; }
+.subMenuX-bottom-left li a{ text-decoration: none;  color: gray; font-size: 14px; padding: 24px 15px; font-family: 'Ubuntu', sans-serif; transition: .2s;}
+.subMenuX-bottom-left li a:hover{ border-bottom: solid 4px green;  }
+.subMenuX-right{ float: right; margin-right: 20px; }
+.subMenuX-right span{ font-family: cursive; font-size: 14px; color: gray;margin-left: 5px; }
+#more-menu-right{ width: 75px; transition: .5s; }
+#more-menu-right:hover{ color: white; border-bottom: solid 4px green; }
+i.fa-ellipsis-v{ margin-left: 10px; color: gray; }
+
+
